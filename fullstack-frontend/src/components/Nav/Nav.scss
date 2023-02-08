@@ -1,0 +1,17 @@
+.nav {
+  position: absolute;
+  background-color: aqua;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+
+  &__item {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: black;
+  }
+
+  &__icon {
+    width: 20%;
+  }
+}
