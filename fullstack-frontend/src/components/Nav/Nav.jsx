@@ -9,7 +9,6 @@ const Nav = () => {
       <Link className="nav__item" to="/locations">
         Places
       </Link>
-
       <Link className="nav__item" to="/location/new">
         New
       </Link>
