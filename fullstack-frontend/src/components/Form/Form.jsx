@@ -1,6 +1,7 @@
 import "./Form.scss";
+import { useState } from "react";
 
-const Form = () => {
+const Form = ({ defaultFormState, handleSubmit, formTitle }) => {
   const [location, setLocation] = useState(defaultFormState);
 
   const handleValidation = (event) => {
@@ -15,8 +16,8 @@ const Form = () => {
 
   return (
     <div className="form-container">
-      <h2 className="form-container__title">Form</h2>
-      <form className="form-container__form" onSubmit={handleValidatiion}>
+      <h2 className="form-container__title">{formTitle}</h2>
+      <form className="form-container__form" onSubmit={handleValidation}>
         <input
           className="form-container__input"
           type="text"
