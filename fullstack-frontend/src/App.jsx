@@ -10,7 +10,7 @@ const App = () => {
       <Nav />
       <Routes>
         <Route path="/locations" element={<ViewLocations />} />
-        <Route path="/locations/new" element={<CreateLocation />} />
+        <Route path="/location/new" element={<CreateLocation />} />
       </Routes>
     </Router>
   );

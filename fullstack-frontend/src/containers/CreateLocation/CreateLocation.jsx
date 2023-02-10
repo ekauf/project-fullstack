@@ -24,7 +24,6 @@ const CreateLocation = () => {
 
   return (
     <section className="create-location">
-      <h2>Add a Location</h2>
       <Form
         handleSubmit={handleSubmit}
         defaultFormState={defaultFormState}

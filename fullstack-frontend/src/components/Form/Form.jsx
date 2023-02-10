@@ -12,6 +12,8 @@ const Form = ({ defaultFormState, handleSubmit, formTitle }) => {
       return;
     }
     handleSubmit(location);
+    alert("Form submitted successfully!");
+    setLocation(defaultFormState);
   };
 
   return (
